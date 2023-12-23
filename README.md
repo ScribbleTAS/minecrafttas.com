@@ -1,4 +1,4 @@
-[![hugo github pages](https://github.com/MinecraftTAS/mctas.com/actions/workflows/gh-pages.yaml/badge.svg)](https://test.minecrafttas.com)  
+[![hugo github pages](https://github.com/MinecraftTAS/minecrafttas.com/actions/workflows/gh-pages.yaml/badge.svg)](https://test.minecrafttas.com)  
 The source code for https://minecrafttas.com
 
 Uses a completely custom theme that I would not recommend to copy...
