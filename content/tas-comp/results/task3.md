@@ -66,7 +66,7 @@ Result video:
 7th: Scribble, 00:36.42  
 [YouTube](https://youtu.be/k3qKrhFBaXA)
 
-8th: speedycube64, 00:38.12  (This was invalidated after the fact, but it's still in the video)
+8th: speedycube64, 00:38.12  
 [YouTube](https://youtu.be/MrsmP8EP06I)
 
 9th: Oliver27, 00:40:44  
