@@ -40,10 +40,10 @@ However, teams are not allowed this time!
 ## Questions
 For task specific questions you can DM `@TAS Competition` with your message. The bot will then react with a 📨. If you click that, your message will be sent to us organizers, where we can answer
 ## Submission period
-You have time to submit until <t:1690048800:f>. You can resubmit by running !submit again which will overwrite your previous submission. If we organizers find something wrong we will notify you and you can resubmit if there is time, but don't count on that...
+You have time to submit until 22nd of Juli 2023 8pm CET. You can resubmit by running !submit again which will overwrite your previous submission. If we organizers find something wrong we will notify you and you can resubmit if there is time, but don't count on that...
 {{<figure class="screenshot" src="../thumbnails/Preview4.5.webp">}}
   
-  ---
+---
 ## Results
 Result video:
 {{<youtube-embed "9-WwWUxcig4">}}  

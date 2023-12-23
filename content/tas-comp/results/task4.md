@@ -32,7 +32,7 @@ Additional Information:
 
 If you have questions about allowed strats dm me @Scribble.  
   
-Submit your TAS by DMing a link to @TAS8999 . You can update your submission by dming the bot again. If you submit a meme run, type the link to your submission AND the meme run submission in one message, so the bot updates it with 2 submissions  
+Submit your TAS by DMing a link to @TAS8999. You can update your submission by dming the bot again. If you submit a meme run, type the link to your submission AND the meme run submission in one message, so the bot updates it with 2 submissions  
   
 If you are in a team with someone, only one needs to submit, but include your teammates name in the submission, so we don't forget >_<  
   
@@ -42,7 +42,7 @@ Good Luck!
 {{<newtablink "TorchBurnout-1.0.jar" "https://cdn.discordapp.com/attachments/778717604851875852/914917865566633984/TorchBurnout-1.0.jar">}}
 {{<figure class="screenshot" src="../thumbnails/Preview4.jpg">}}
   
-  ---
+---
 ## Results
 Result video:
 {{<youtube-embed "dCwWVVPoG_U">}}  
