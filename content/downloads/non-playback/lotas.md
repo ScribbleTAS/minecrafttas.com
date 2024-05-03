@@ -2,13 +2,13 @@
 title: "LoTAS"
 
 alt: ""
-description: "A non-playback mod for version 1.8.9-1.19.4"
+description: "A non-playback mod for versions 1.8.9-1.20.1"
 weight: 02010100
 next: false
 prev: false
 ---
 
-A non-playback mod for version 1.8.9-1.19.4
+A non-playback mod for versions 1.8.9-1.20.1
 
 ## Features
 
