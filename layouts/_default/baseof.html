@@ -35,11 +35,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ block "style" .}}
 		{{ $sass := resources.Get "/scss/main_blue.scss"}}
-		{{ $style := $sass | resources.ToCSS }}
+		{{ $style := $sass | css.Sass }}
 		<link rel="stylesheet" href="{{ $style.Permalink }}" />
 
 		<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg">
 		<meta name="theme-color" content="#27b6bc">
+	{{ end }}
+
+	{{ if eq hugo.Environment "staging" }}
+		<meta name="robots" content="noindex, nofollow" />
 	{{ end }}
 
 
