@@ -1,6 +1,6 @@
 {{ define "style" }}
 	{{ $sass := resources.Get "/scss/main_red.scss" }} 
-	{{ $style := $sass | resources.ToCSS }}
+	{{ $style := $sass | css.Sass }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}" />
 	
 	<link rel="shortcut icon" type="image/svg+xml" href="/faviconred.svg" />
