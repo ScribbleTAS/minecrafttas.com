@@ -22,11 +22,4 @@ A non-playback mod for versions 1.8.9-1.20.1
 *   Ingame timer
 *   And more!
 
-{{<rawhtml>}}
-<a href="https://github.com/MinecraftTAS/LoTAS/releases"><img class="inlineBlock border hovered"
-		src="/images/DownloadButton.svg" height="80" alt="Download Button"></a>
-<a href="https://github.com/MinecraftTAS/LoTAS"><img class="inlineBlock border hovered"
-		src="/images/Github-Mark.svg" height="80" alt="GitHub logo"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/lotas"><img class="inlineBlock border hovered"
-		src="/images/CurseForge.svg" height="80" alt="Curseforge"></a>
-{{</rawhtml>}}
+{{<download-buttons "https://github.com/MinecraftTAS/LoTAS/releases" "https://modrinth.com/mod/lotas" "https://www.curseforge.com/minecraft/mc-mods/lotas">}}
