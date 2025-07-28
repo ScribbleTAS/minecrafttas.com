@@ -1,6 +1,6 @@
 ---
 title: "Non Playback"
 alt: ""
-description: "LoTAS"
-weight: 02010000
+description: "LoTAS, LoTAS-Light"
+weight: 02020000
 ---

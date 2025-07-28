@@ -1,6 +1,7 @@
 baseURL = 'https://minecrafttas.com'
 languageCode = 'en-gb'
 title = 'Home'
+
 [params]
 	description = "Minecraft Tool-Assisted Speedrunning resources and more!"
 
@@ -17,3 +18,5 @@ title = 'Home'
     lineNumbersInTable = true
     noClasses = false
     tabWidth = 4
+  [markup.goldmark]
+    renderer.unsafe = true
