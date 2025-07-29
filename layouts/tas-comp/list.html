@@ -1,0 +1,19 @@
+{{ define "style" }}
+	{{ $sass := resources.Get "/scss/main_green.scss" }}
+	{{ $style := $sass | css.Sass }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+	<link rel="shortcut icon" type="image/svg+xml" href="/favicongreen.svg" />
+	<meta name="theme-color" content="#26bc62">
+{{ end }}
+{{ define "logo" }}
+	<a class="logo" href="/"><img src="/images/title/PotionTitleGreen.svg" alt="potion-title"></a>
+{{ end }}
+{{ define "potionicon" }}
+	<meta property="og:image" content="/icons/PotionIconGreen.png">
+	<meta property="twitter:image" content="/icons/PotionIconGreen.png">
+{{ end }}
+
+{{define "main"}}
+{{ partial "list.html" .}}
+{{end}}

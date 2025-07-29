@@ -1,0 +1,28 @@
+{{/*  {{ if .Params.toc }}  */}}
+{{ partial "toc.html" . }}
+{{/*  {{ end }}  */}}
+
+<!-- Section -->
+<section>
+	<article>
+		{{ partial "smallnav.html" . }}
+		<h1>{{.Title}}</h1>
+		{{.Content}}
+		<ul class="contentlist">
+			{{ range .Pages.ByWeight }}
+			<a class="" href="{{.RelPermalink}}">
+				<li class="border hovered flexH">
+					{{ if isset .Params "icon"}}
+					<img class="icon" src="{{.Params.icon}}" alt="{{.Params.alt}}">
+					{{ end }}
+					<div>
+						<h1>{{.Title}}</h1>
+						<p>{{.Params.description}}</p>
+					</div>
+				</li>
+			</a>
+			{{ end }}
+		</ul>
+		{{ partial "next-previous.html" . }}
+	</article>
+</section>
