@@ -1,0 +1,14 @@
+{{ if not (.Params.tocnav) }}
+	{{ partial "toc.html" . }}
+{{ end }}
+
+
+<!-- Section -->
+<section>
+	<article>
+		{{ partial "smallnav.html" . }}
+		<h1>{{.Title}}</h1>
+		{{.Content}}
+		{{ partial "next-previous.html" . }}
+	</article>
+</section>
