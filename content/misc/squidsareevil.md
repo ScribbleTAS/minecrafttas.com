@@ -15,9 +15,9 @@ If you still think these creatures are harmless and don't want to hurt you, here
 In Minecraft TASing, we have to deal a lot with the randomness of the game.
 When playing back inputs, if you kill a mob (preferably a squid) and it drops a different item than it did when recording your inputs, then you are bound to run into some problems...
 
-Just like you can enter a seed for a Minecraft world, you can theoretically enter a seed for every randomnes happening in the game, making everything deterministic.
+Just like you can enter a seed for a Minecraft world, you can theoretically enter a seed for every randomness happening in the game, making everything deterministic.
 
-The game has lots of different random instances, all requiring having a different seed and the early attempts at solving this, was throwing out every randomness and have everything depend on only one instance, that we can control.
+The game has lots of different random instances, all required to have a different seed and the early attempts at solving this, was throwing out every randomness and have everything depend on only one instance, that we can control.
 
 So everything in the entire game had the same seed, making it theoretically deterministic.
 
