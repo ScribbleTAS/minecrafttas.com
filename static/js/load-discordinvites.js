@@ -36,8 +36,8 @@ function loadAllInvites() {
  * @param {HTMLElement} inviteElement The element to apply the data to
  */
 function loadInvite(inviteCode, inviteElement) {
-
-	if (hasClickedDiscordLoad == "true") {
+	const isLoaded = sessionStorage.getItem(`${inviteCode}_isLoaded`);
+	if (isLoaded && isLoaded == "true") {
 		const data = {
 			id: sessionStorage.getItem(`${inviteCode}_id`),
 			name: sessionStorage.getItem(`${inviteCode}_name`),
@@ -75,6 +75,7 @@ function loadInvite(inviteCode, inviteElement) {
 			applyInviteData(inviteCode, inviteElement, data);
 
 			// Set data in session storage
+			sessionStorage.setItem(`${inviteCode}_isLoaded`, "true");
 			sessionStorage.setItem(`${inviteCode}_id`, data.id);
 			sessionStorage.setItem(`${inviteCode}_name`, data.name);
 			sessionStorage.setItem(`${inviteCode}_gicon`, data.gicon);
