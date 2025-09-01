@@ -20,6 +20,7 @@
 
 $bg-color: #2e2e2e;
 $lightGray: #7B7B7B;
+$footer-color: black;
 
 * {
 	padding: 0;
@@ -37,6 +38,14 @@ body {
 	background-color: $bg-color;
 	color: white;
 	overflow: overlay;
+}
+
+.flex-wrapper {
+	background-color: $bg-color;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 a {
@@ -473,13 +482,6 @@ figcaption {
 	padding-right: 10px;
 }
 
-.flex-wrapper {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-	justify-content: flex-start;
-}
-
 .permalink {
 	opacity: 30%;
 	top: 5px;
@@ -524,7 +526,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: black;
+	background-color: $footer-color;
 	width: 100%;
 	padding: 10px;
 	position: static;
