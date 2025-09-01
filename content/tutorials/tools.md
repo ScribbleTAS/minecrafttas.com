@@ -71,11 +71,22 @@ Other than that, the steps are alsmost the same as vanilla duping:
 4. Open the pause menu and click in the top left **LoadItems**
 5. An item should spawn *on the ground*
 
-### LoTAS duping 1.14.4+ {#LoTAS-1.14.4}
+### LoTAS duping 1.14.4-1.20.1 {#LoTAS-1.14.4}
 1. Open the pause menu and click in the top left **Save Items**
 2. Throw item(s) on the ground
 3. Open the pause menu and click in the top left **Load Items**
 4. An item should spawn *in your inventory*
+
+### (New!) LoTAS-Light duping 1.20.5+ {#LoTAS-Light-1.20.5}
+If you use LoTAS-Light, you are using the newest iteration of the duplication function.
+Over time, we found a few issues that make LoTAS Duping not entirely vanilla. 
+
+1. Open the pause menu (which triggers an auto-save)
+2. Throw item(s) on the ground
+3. Press <kbd>O</kbd> (Which will quit the world to the main menu)
+4. Rejoin the world
+
+As you can see, this method is similar to the [vanilla](#1.14.4) method without the need to kill the game with task manager, which makes it faster than vanilla and more accurate than LoTAS.
 
 ## Dragon Manipulation
 Enderdragon RNG is very annoying to deal with when creating TASes. Getting the perfect RNG is very unlikely and you would need to reset savestates a lot.  
