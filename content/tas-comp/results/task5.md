@@ -14,10 +14,10 @@ You have 30 seconds. Collect as many unique items as possible. Highest item coun
 
 Items are counted when entering the inventory, you don't have to keep the items for it to count.
 
-**World:** `Use the world download below`
-**Difficulty:** `Easy`
-**Version:** `1.18.2`
-**Type:** Glitched!
+- **World:** `Use the world download below`
+- **Difficulty:** `Easy`
+- **Version:** `1.18.2`
+- **Type:** Glitched!
 
 ## Additional Info
 - Enderman teleportation manipulation is **NOT** allowed. However, enderman spawn manipulation is allowed.

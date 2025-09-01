@@ -16,11 +16,11 @@ Take one or more ingame screenshot(s) in double F5 mode of 3 subjects:
 2. Of yourself, while riding an entity
 3. Of yourself, being within 4 blocks distance to a hostile enemy. The enemy has to have aggro on you, passive endermen don't count. The entire face of the enemy must be visible in the photo.
 
-**Seed:**`3658048797331685473`  
-**Difficulty:**`Easy`  
-**Version:**`1.19.4 + 1.20 Experimental Datapack`  
-**StartPosition:** `-499 67 79` | `/tp -499 67 79`  
-**Type:** Glitchless! No avoid taking damage and item duping!
+- **Seed:** `3658048797331685473`  
+- **Difficulty:** `Easy`  
+- **Version:** `1.19.4 + 1.20 Experimental Datapack`  
+- **StartPosition:** `-499 67 79` | `/tp -499 67 79`  
+- **Type:** Glitchless! No avoid taking damage and item duping!
 
 ## Allowed Mods
 - LoTAS-1.19.4-2.1.2 (https://github.com/MinecraftTAS/LoTAS/releases/download/v2.1/LoTAS1.19.4-2.1.2.jar)
