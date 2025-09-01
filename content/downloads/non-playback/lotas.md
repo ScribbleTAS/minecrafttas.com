@@ -7,7 +7,11 @@ weight: 02010100
 next: false
 prev: false
 ---
+{{% important %}}
+LoTAS will not receive any updates for the forseeable future, while we focus on developing [TASmod](/downloads/playback/tasmod)
 
+If you want to TAS in newer versions, check [LoTAS-Light](/downloads/non-playback/lotas-light)
+{{% /important %}}
 A non-playback mod for versions 1.8.9-1.20.1
 
 ## Features

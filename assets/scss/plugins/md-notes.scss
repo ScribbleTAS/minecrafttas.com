@@ -1,0 +1,64 @@
+$note-color: #1f6feb;
+$tip-color: #22a63c;
+$important-color: #8957e5;
+$warning-color: #d29922;
+$caution-color: #f85149;
+
+blockquote.md-note {
+
+	.md-note-title {
+		display: flex;
+		align-items: center;
+		font-weight: 600;
+		margin-top: .25em;
+		margin-bottom: .75em;
+
+		svg {
+			margin-right: .5em;
+		}
+	}
+}
+
+.md-note {
+	&.note {
+		border-color: $note-color;
+	}
+
+	&.tip {
+		border-color: $tip-color;
+	}
+
+	&.important {
+		border-color: $important-color;
+	}
+	
+	&.warning {
+		border-color: $warning-color;
+	}
+
+	&.caution {
+		border-color: $caution-color;
+	}
+}
+
+.md-note-title {
+	&.note {
+		color: $note-color;
+	}
+
+	&.tip {
+		color: $tip-color;
+	}
+
+	&.important {
+		color: $important-color;
+	}
+	
+	&.warning {
+		color: $warning-color;
+	}
+
+	&.caution {
+		color: $caution-color;
+	}
+}

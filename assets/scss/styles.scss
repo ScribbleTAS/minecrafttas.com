@@ -13,9 +13,10 @@
 	src: url('/fonts/condensed/AsapCondensed-SemiBold.ttf');
 }
 
-@import "plugin/discordinvite.scss";
-@import "plugin/embed.scss";
-@import "plugin/syntax.scss";
+@import "plugins/discordinvite.scss";
+@import "plugins/embed.scss";
+@import "plugins/syntax.scss";
+@import "plugins/md-notes.scss";
 
 $bg-color: #2e2e2e;
 $lightGray: #7B7B7B;
@@ -323,6 +324,17 @@ section {
 		strong {
 			@media screen and (min-width: 800px) {
 				letter-spacing: 0.06em;
+			}
+		}
+
+		blockquote {
+			border-left: .25em solid white;
+			padding: .25em 0;
+			padding-left: 1em;
+			margin-bottom: 1em;
+
+			p, ul, ol {
+				margin-bottom: 10px;
 			}
 		}
 	}

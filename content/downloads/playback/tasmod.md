@@ -65,8 +65,9 @@ This mod can record and play back
 Record TASes with friends! Needs operator permissions to run tasmod related commands.  
 /savestate can be used to manage savestates.
 
-> [!Note]
-> /fullrecord, /fullplay and /restartandplay are not guaranteed to work in multiplayer at this time.
+{{<note>}}
+/fullrecord, /fullplay and /restartandplay are not guaranteed to work in multiplayer at this time.
+{{</note>}}
 
 ## HUD
 When ingame, hitting <kbd>F6</kbd> will show you options for customising your HUD, with monitoring options and more. Even more options are available when KillTheRNG is installed. 

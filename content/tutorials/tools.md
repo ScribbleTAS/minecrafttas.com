@@ -78,8 +78,10 @@ Other than that, the steps are alsmost the same as vanilla duping:
 4. An item should spawn *in your inventory*
 
 ### (New!) LoTAS-Light duping 1.20.5+ {#LoTAS-Light-1.20.5}
+{{% note %}}
 If you use LoTAS-Light, you are using the newest iteration of the duplication function.
 Over time, we found a few issues that make LoTAS Duping not entirely vanilla. 
+{{% /note %}}
 
 1. Open the pause menu (which triggers an auto-save)
 2. Throw item(s) on the ground
