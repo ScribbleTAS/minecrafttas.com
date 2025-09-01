@@ -13,12 +13,14 @@
 	src: url('/fonts/condensed/AsapCondensed-SemiBold.ttf');
 }
 
-@import "plugin/discordinvite.scss";
-@import "plugin/embed.scss";
-@import "plugin/syntax.scss";
+@import "plugins/discordinvite.scss";
+@import "plugins/embed.scss";
+@import "plugins/syntax.scss";
+@import "plugins/md-notes.scss";
 
 $bg-color: #2e2e2e;
 $lightGray: #7B7B7B;
+$footer-color: black;
 
 * {
 	padding: 0;
@@ -36,6 +38,14 @@ body {
 	background-color: $bg-color;
 	color: white;
 	overflow: overlay;
+}
+
+.flex-wrapper {
+	background-color: $bg-color;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 a {
@@ -290,6 +300,20 @@ section {
 			border-radius: 6px;
 		}
 
+		pre {
+			line-height: 24px;
+			background-color: #272822;
+			border-radius: 10px;
+			padding: 15px;
+
+			code {
+				background-color: initial;
+				padding: initial;
+				border-radius: initial;
+			}
+			margin-bottom: 20px;
+		}
+
 		.highlight {
 			overflow-x: auto;
 			width: 100%;
@@ -299,10 +323,18 @@ section {
 			-moz-text-size-adjust: 100%;
 			-webkit-text-size-adjust: 100%;
 
+			pre {
+				line-height: initial;
+				background-color: initial;
+				border-radius: initial;
+				padding: initial;
+				margin: 0;
+			}
+
 			div {
 				border-radius: 10px;
 				padding: 15px;
-				width: min-content;
+				width: fit-content;
 			}
 
 			code {
@@ -323,6 +355,17 @@ section {
 		strong {
 			@media screen and (min-width: 800px) {
 				letter-spacing: 0.06em;
+			}
+		}
+
+		blockquote {
+			border-left: .25em solid white;
+			padding: .25em 0;
+			padding-left: 1em;
+			margin-bottom: 1em;
+
+			p, ul, ol {
+				margin-bottom: 10px;
 			}
 		}
 	}
@@ -439,13 +482,6 @@ figcaption {
 	padding-right: 10px;
 }
 
-.flex-wrapper {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-	justify-content: flex-start;
-}
-
 .permalink {
 	opacity: 30%;
 	top: 5px;
@@ -490,7 +526,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: black;
+	background-color: $footer-color;
 	width: 100%;
 	padding: 10px;
 	position: static;

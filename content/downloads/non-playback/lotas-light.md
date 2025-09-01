@@ -11,7 +11,9 @@ prev: false
 
 A very slimmed down version of [LoTAS](/downloads/non-playback/lotas), in an attempt to make it easily upgradable to newer versions.
 
+{{% note %}}
 Needs Fabric API
+{{% /note %}}
 
 ## Features
 - Tickratechanger
