@@ -9,7 +9,7 @@ prev: false
 ---
 
 {{<rawhtml>}}
-<p align="center"><img src="https://minecrafttas.com/images/TASmodLogo.svg" alt="Logo" width="500"></p>
+<p align="center"><img class="screenshot" src="https://minecrafttas.com/images/TASmodLogo.svg" alt="Logo"></p>
 {{</rawhtml>}}
 
 A [Tool-Assisted Speedrun](https://tasvideos.org/WelcomeToTASVideos) mod for Minecraft.  
