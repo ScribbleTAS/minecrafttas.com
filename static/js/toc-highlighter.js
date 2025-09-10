@@ -1,7 +1,7 @@
 const observer = new IntersectionObserver(entries => {
 	entries.forEach(entry => {
 	  const id = entry.target.getAttribute('id');
-	  const element = document.querySelector(`nav li a[href="#${id}"]`)
+	  const element = document.querySelector(`#TableOfContents a[href="#${id}"]`)
 	  if (!element){
 		  return
 	  }
@@ -14,6 +14,6 @@ const observer = new IntersectionObserver(entries => {
 });
 
 // Track all sections that have an `id` applied
-document.querySelectorAll('h2[id], h3[id]').forEach((section) => {
+document.querySelectorAll('h2[id], h3[id], h4[id]').forEach((section) => {
 	observer.observe(section);
 });
