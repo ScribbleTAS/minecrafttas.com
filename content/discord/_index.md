@@ -12,8 +12,10 @@ The main Minecraft TAS Server:
 
 ## Other related discords
 
-For all things TASing and the home of TASBot:
-{{<discordinvite "73SXrea">}}
+The home of TASBot:
+{{<discordinvite "TASBot">}}
+TASVideos.org:
+{{<discordinvite "7KSr7eZVzG">}}
 Our RTA colleagues. You can also find more info on their website: [minecraftspeedrunning.com](https://minecraftspeedrunning.com)
 {{<discordinvite "jmdFn3C">}}
 Resources for Minecraft Bedrock Edition TASes:
